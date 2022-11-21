@@ -1,8 +1,17 @@
 # Audify - Music Player (Web Platform)
 
-Develop an elegant React.js Music Application. 
+Demo: Coming Soon!
 
-Check out the complete project requirements [here](https://docs.google.com/document/d/13PeFwRlPEhMw_HPyrIrInvQuKaVWnpNmcv-y3NA208s/edit?usp=sharing)
+
+- A music player built with the influence from our famous song streaming platform: Spotify. With Audify, you can explore the songs that are world top choices or simply jam to your favorites of all time.
+
+# Technologies Used
+- JavaScript
+- React.js
+- Tailwind
+- Rapid API: Shazam Core API
+- HTML5 & CSS3
+
 
 ## Local Development
 To run this app locally, clone the project (or download it as a zip and unzip it to a directory), navigate to the root directory with a command prompt or terminal (where the package.json file is located), and run npm install to download the necessary dependencies onto your local machine.
