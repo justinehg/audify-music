@@ -10,8 +10,9 @@ export const shazamCoreApi = createApi({
             return headers;
         },
     }),
-    endpoints: (builders) => ({
-        getTopCharts: builders.query({ query: () => '/charts/world'}),
+    endpoints: (builder) => ({
+        getTopCharts: builder.query({ query: () => '/charts/world?query=metallica' }),
+    
     })
 });
 
@@ -19,4 +20,3 @@ export const {
     useGetTopChartsQuery,
 } = shazamCoreApi;
 
-// starts at 35:56
